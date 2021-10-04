@@ -1,3 +1,3 @@
 # Restaurant
 
-visit https://aparnasurabattini.github.io/Palm-Leaf-Manuscript/ for my Restaurant website using Bootstrap.
+visit https://aparnasurabattini.github.io/Palm-Leaf-Manuscript/ for my Palm Leaf Manuscript website using Bootstrap.
