@@ -1,0 +1,243 @@
+
+.title {
+  padding-top: 50px;
+}
+
+.title::before {
+  content: '';
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 50px;
+}
+
+.title::after {
+  content: '';
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    transition: all .4s;    
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+    transition: all .4s;
+
+}
+.navbar-brand {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+nav {
+    box-shadow: 2px -2px 0px 5px rgba(0, 0, 0, 0.288);
+
+}
+.btn {
+    color: white;
+}
+.btn:hover {
+    color: white;
+    border-bottom: 3px solid yellow;
+    transition: all .4s;
+}
+.img-slide-show {
+min-height: 700px;
+max-height: 700px;
+}
+#head1 {
+    font-size: 3em;
+    margin-top: 5em;
+}
+.home {
+background-image: url(https://img.dtnext.in/Articles/2018/Mar/201803050204161743_Palm-leaf-manuscripts-are-treasure-troves-of-information_SECVPF.gif);
+background-size: cover;
+height: 1021px;
+color: white;
+background-attachment: fixed;
+}
+#header {
+    padding-top: 5em;
+    padding-left: 0em;
+}
+#btn {
+    font-size: 25px;
+    margin-top: 3rem;
+    background-color: purple;
+    color: white;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: lightgreen;
+}
+.menu {
+    background-color: rgb(235, 235, 235);
+}
+.img-menu {
+    height: 300px;
+    width: 250px;
+}
+.card-title {
+    font-size: 35px;
+}
+.card-text {
+    font-size: 24px
+    ;
+}
+#menu-btn  {
+    border-bottom: purple;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.card {
+    transition: all .5s;
+}
+.card:hover {
+    transition: all .5s;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.212);
+}
+.news {
+    background-color: rgb(235, 235, 235);
+}
+.card-img1 {
+    min-height: 300px;
+    max-height: 300px;
+
+}
+#reservaiton {
+    font-size: 25px;
+}
+#footer{
+  background-color: rgb(235, 235, 235);
+  margin-top: 20px;
+  padding: 8px;
+}
+.copyright{
+  color: purple;
+  margin-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+@media only screen and (max-width: 250px) {
+    #head1 {
+        font-size: 25px;
+        margin-top: 5em;
+    }
+    #btn {
+        font-size: 17px;
+        margin-top: 3rem;
+    }
+    .home {
+        background-image: url(https://s-media-cache-ak0.pinimg.com/originals/05/8f/dd/058fddffb87201b01bf5f0d019185982.jpg);
+        background-size: cover;
+        height: 1021px;
+        color: white;
+        background-attachment: fixed;
+        }
+        #img-home {
+            min-width: 100px;
+        }
+        .img-slide-show {
+            min-height: 200px;
+            max-height: 200px;
+            }
+            .carousel-caption  {
+                display: none;
+            }
+            #reservaiton {
+                font-size: 15px;
+            }
+            #img2 {
+                min-width: 150px;
+            }
+            .card-text {
+                font-size: 15px;
+            }
+            .card-title {
+                font-size: 20px;
+            }
+            .card {
+                min-height: 400px;
+            }
+            .card-img1 {
+                height: 400px;
+            }
+            #reservaiton1 {
+                font-size: 12px;
+            }
+            .navbar-brand {
+                text-transform: uppercase;
+                font-size: 15px;
+                margin-left: -20%;
+            }
+            body {
+                overflow-x: hidden;
+            }
+}
+@media (min-width: 250.1px) and (max-width: 350px) {
+    #head1 {
+        font-size: 35px;
+        margin-top: 5em;
+    }
+    #img-home {
+        min-width: 200px;
+    }
+    .img-slide-show {
+        min-height: 200px;
+        max-height: 200px;
+        }
+        .carousel-caption  {
+            display: none;
+        }
+        .card-text {
+            font-size: 15px;
+        }
+        .card-title {
+            font-size: 20px;
+        }
+        .card {
+            min-height: 300px;
+        }
+        .card-img1 {
+            height: 400px;
+        }
+}
+@media (min-width: 250.1px) and (max-width: 650px) {
+    .img-slide-show {
+        min-height: 300px;
+        max-height: 300px;
+        }
+        .carousel-caption  {
+            display: none;
+        }
+ }@media (min-width: 0px) and (max-width: 992px) {
+    .home {
+background-image: url(https://img.dtnext.in/Articles/2018/Mar/201803050204161743_Palm-leaf-manuscripts-are-treasure-troves-of-information_SECVPF.gif);
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+background-attachment: inherit;
+width: 100%;
+height: 100vh;
+padding-left: 12px;
+}
+img{
+    background-size: contain;
+background-repeat: no-repeat;
+background-attachment: inherit;
+width: 50ch;
+height: auto;
+}
+}
